@@ -1,0 +1,60 @@
+body {
+  margin: 1.5em;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+h1 {
+  font-size: 2.3em;
+  font-family: 'Open Sans Italic';
+  font-family: 'Open Sans';
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+}
+
+p {
+  line-height: 1.5;
+}
+
+ul li {
+  padding: 0 0 5px 0;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 70em;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.col {
+  padding: 1em;
+  margin: 0 2px 2px 0;
+  background: #F3F9FE;
+  overflow: hidden;
+}
+
+.layout {
+  margin-bottom: 1em;
+}
+
+.slick-slider img {
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.main .slick-dotted.slick-slider {
+  margin: 25px 0 50px 0;
+}
+
+.hidden{
+  display: none;
+}

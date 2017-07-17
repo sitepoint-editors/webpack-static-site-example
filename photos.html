@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>I Can Haz Cheeseburger?</title>
+    <link href="./src/css/main.css" rel="stylesheet">
+    <link href="./node_modules/slick-carousel/slick/slick.css" rel="stylesheet">
+    <link href="./node_modules/slick-carousel/slick/slick-theme.css" rel="stylesheet">
+    <link href="./node_modules/lightbox2/dist/css/lightbox.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>I Can Haz Cheeseburger?</h1>
+      </header>
+
+      <div class="layout">
+        <div class="col main">
+          <p>Here are some of our favourite lolcats. If you need more, be sure to check out <a href="http://www.lolcats.com/">lolcats.com</a>, or go make your own over at the <a href="https://imgflip.com/memegenerator/23856847/lolcat">lolcat meme generator</a>.</p>
+
+          <div class="slick-slider">
+            <div><img alt="Tired cat" src="./src/img/1.jpg"></div>
+            <div><img alt="Flying cat" src="./src/img/2.jpg"></div>
+            <div><img alt="Black hole cat" src="./src/img/3.jpg"></div>
+            <div><img alt="Jesus cat" src="./src/img/4.jpg"></div>
+            <div><img alt="Jabba cat" src="./src/img/5.jpg"></div>
+            <div><img alt="Writing cat" src="./src/img/6.jpg"></div>
+            <div><img alt="Sad cat" src="./src/img/7.jpg"></div>
+            <div><img alt="Working cat" src="./src/img/8.jpg"></div>
+          </div>
+
+          <hr>
+
+          <h2>Wait! Why iz I Here?</h2>
+          <p>Click <a data-lightbox="image-1" data-title="Halp" href="./src/img/9.jpg">here</a> for enlightenment</p>
+        </div>
+
+        <div class="col sidebar">
+          <p><strong>Navigation</strong></p>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li>Photo Gallery</li>
+            <li><a href="http://icanhas.cheezburger.com">icanhas.cheezburger.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <footer>
+        &copy; 2017 Ceiling Cat
+      </footer>
+    </div>
+
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/slick-carousel/slick/slick.min.js"></script>
+    <script src="./node_modules/lightbox2/dist/js/lightbox.min.js"></script>
+    <script>
+      $('.slick-slider').slick({
+        dots: true,
+        arrows: false,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        cssEase: 'linear'
+      });
+    </script>
+    <script src="./src/js/main.js"></script>
+  </body>
+</html>
