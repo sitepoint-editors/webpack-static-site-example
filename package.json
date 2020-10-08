@@ -9,8 +9,8 @@
   "author": "James Hibbard",
   "license": "ISC",
   "dependencies": {
-    "jquery": "^3.2.1",
-    "lightbox2": "^2.9.0",
-    "slick-carousel": "^1.6.0"
+    "jquery": "^3.5.1",
+    "lightbox2": "^2.11.3",
+    "slick-carousel": "^1.8.1"
   }
 }
